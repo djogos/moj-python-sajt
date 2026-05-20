@@ -17,7 +17,7 @@ def home():
 @app.route('/o-nama')
 def o_nama():
     # Ova funkcija samo uzima o-nama.html iz templates foldera i prikazuje ga
-    return render_template('o-nama.html')
+    return render_template('filmovi.html')
 
 
 if __name__ == "__main__":
