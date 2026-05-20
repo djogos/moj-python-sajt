@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Početna Stranica</title>
+    <style>
+        body { 
+            font-family: sans-serif; 
+            text-align: center; 
+            margin-top: 50px; 
+            background: #eef2f7; 
+            color: #333; 
+        }
+        .container { 
+            background: white; 
+            padding: 30px; 
+            display: inline-block; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+        }
+        h1 { color: #3776AB; }
+        p { font-size: 18px; }
+        .nav-link { 
+            display: inline-block; 
+            margin-top: 20px; 
+            padding: 10px 20px; 
+            background: #3776AB; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold; 
+        }
+        .nav-link:hover { background: #2b5b84; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dobrodošli na moju početnu stranicu! 🚀</h1>
+        <p>Tvoj Python + Flask server uspešno radi.</p>
+        
+        <small>Trenutno vreme na serveru: {{ vreme }}</small>
+        
+        <br><br>
+        <hr>
+        
+        <p>Želiš da saznaš više o ovom projektu?</p>
+        <a href="/filmovi" class="nav-link">Idi na stranicu Filmovi na TVu →</a>
+    </div>
+
+</body>
+</html>
