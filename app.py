@@ -14,7 +14,7 @@ def home():
 
 
 # 2. NOVA STRANICA (tvojsajt.com/o-nama)
-@app.route('/o-nama')
+@app.route('/filmovi')
 def o_nama():
     # Ova funkcija samo uzima o-nama.html iz templates foldera i prikazuje ga
     return render_template('filmovi.html')
